@@ -10,6 +10,7 @@ chmod 600 "$SSH_PATH/deploy_key"
 
 md5sum $SSH_PATH/deploy_key
 echo "ENV"
+echo $GITHUB_WORKSPACE
 echo $USER_AND_HOST
 echo $SRC
 echo $DEST
